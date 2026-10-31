@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>KofiTech - Tecnologia Inteligente</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <link rel="stylesheet" href="./css/style.css"/>
+
+    <link rel="stylesheet" href="./css/responsive.css"/>
+  </head>
+  <body>
+    <header class="header" id="mainHeader">
+      <div class="logo">
+        <img src="./img/logoKofi.png" alt="KofiTech Logo" />
+      </div>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link">Início</a>
+        <a href="#about" class="nav-link">Sobre</a>
+        <a href="#solutions" class="nav-link">Soluções</a>
+        <a href="#team" class="nav-link">Equipe</a>
+        <a href="#contact" class="nav-link">Contato</a>
+      </nav>
+
+      <a href="#contact" class="btn-header">Fale Conosco</a>
+
+      <button
+        class="mobile-menu-toggle"
+        id="mobileMenuToggle"
+        aria-label="Menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-container">
+          <div class="hero-content fade-up">
+            <div class="hero-badge">
+              <span class="dot"></span>
+              Inovação & Tecnologia
+            </div>
+            <h1 class="hero-title">
+              KofiTech —<br />
+              <span class="gradient-text">Tecnologia Inteligente</span><br />
+              para o Futuro
+            </h1>
+            <p class="hero-description">
+              Criamos soluções digitais inovadoras que conectam empresas,
+              pessoas e tecnologia de forma eficiente, moderna e acessível.
+            </p>
+            <div class="hero-buttons">
+              <a href="#solutions" class="btn-primary">
+                Conhecer Soluções <i class="fas fa-arrow-right fa-xs"></i>
+              </a>
+              <a href="#contact" class="btn-outline">Fale Conosco</a>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper fade-up">
+            <img
+              class="hero-image"
+              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80"
+              alt="Equipe trabalhando em tecnologia"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+   <section id="about" class="about">
+  <div class="container">
+    <div class="about-container">
+
+      <div class="fade-up about-content">
+        <span class="section-tag">Sobre Nós</span>
+
+        <h2 class="section-title">
+          Transformamos <span class="gradient-text">ideias</span> em
+          soluções digitais
+        </h2>
+
+        <p class="section-description">
+          A KofiTech é especializada no desenvolvimento de soluções
+          tecnológicas modernas, focadas em inovação, eficiência e
+          experiência do usuário. Nosso propósito é transformar ideias em
+          ferramentas digitais que facilitam processos e geram resultados
+          reais.
+        </p>
+
+        <div class="features-grid">
+          <!-- seus cards continuam aqui -->
+        </div>
+      </div>
+
+      <div class="fade-up about-image-wrapper">
+        <img
+          class="about-image"
+          src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80"
+          alt="Equipe KofiTech reunida"
+        />
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- SOLUTIONS / ZOOLY -->
+    <section id="solutions" class="solutions zooly-showcase">
+      <div class="container">
+        <div class="zooly-heading fade-up">
+          <span class="section-tag">Nossa solução educacional</span>
+          <h2 class="section-title">Conheça o <span class="gradient-text">Zooly Game</span></h2>
+          <p class="section-description">Uma experiência conectada que aproxima a aprendizagem das crianças e o acompanhamento pedagógico dos professores.</p>
+        </div>
+
+        <article class="zooly-product zooly-mobile-product fade-up">
+          <div class="product-copy">
+            <span class="product-kicker"><i class="fa-solid fa-gamepad"></i> Para os alunos</span>
+            <h3>Aprender pode ser uma <span>aventura.</span></h3>
+            <p>No aplicativo mobile, as crianças exploram atividades, descobrem histórias e avançam em uma jornada de aprendizagem com elementos lúdicos e recompensas.</p>
+            <ul class="product-points">
+              <li><i class="fa-solid fa-check"></i> Atividades educativas e leitura</li>
+              <li><i class="fa-solid fa-check"></i> Avatares e recompensas</li>
+              <li><i class="fa-solid fa-check"></i> Uma jornada visual e interativa</li>
+            </ul>
+            <span class="device-label"><i class="fa-solid fa-mobile-screen-button"></i> Experiência mobile</span>
+          </div>
+          <div class="showcase-carousel mobile-carousel" data-carousel="mobile" aria-label="Telas do aplicativo mobile">
+            <div class="carousel-topline"><span><i class="fa-solid fa-images"></i> Telas do aplicativo</span><div class="carousel-controls"><button class="carousel-toggle" type="button" aria-label="Pausar animação"><i class="fa-solid fa-pause"></i></button></div></div>
+            <div class="carousel-viewport"><div class="carousel-track">
+              <figure class="screen-card phone-screen"><img src="./img/zooly-mobile/SplashScreen.png" alt="Tela de abertura do Zooly Game" loading="lazy"><figcaption>Boas-vindas</figcaption></figure>
+              <figure class="screen-card phone-screen"><img src="./img/zooly-mobile/LoginAluno.png" alt="Login do aluno" loading="lazy"><figcaption>Acesso do aluno</figcaption></figure>
+              <figure class="screen-card phone-screen"><img src="./img/zooly-mobile/Home.png" alt="Página inicial do jogo" loading="lazy"><figcaption>Início</figcaption></figure>
+              <figure class="screen-card phone-screen"><img src="./img/zooly-mobile/HomePosAtividade.png" alt="Tela após atividade" loading="lazy"><figcaption>Conquistas</figcaption></figure>
+              <figure class="screen-card phone-screen"><img src="./img/zooly-mobile/AvatarLoja.png" alt="Loja de avatares" loading="lazy"><figcaption>Loja de avatares</figcaption></figure>
+              <figure class="screen-card phone-screen"><img src="./img/zooly-mobile/AvatarEditar.png" alt="Edição de avatar" loading="lazy"><figcaption>Personalização</figcaption></figure>
+              <figure class="screen-card phone-screen"><img src="./img/zooly-mobile/Configuracoes.png" alt="Configurações do aplicativo" loading="lazy"><figcaption>Configurações</figcaption></figure>
+              <figure class="screen-card phone-screen"><img src="./img/zooly-mobile/PainelPais.png" alt="Painel dos responsáveis" loading="lazy"><figcaption>Painel dos responsáveis</figcaption></figure>
+            </div></div>
+            <p class="carousel-hint"><i class="fa-solid fa-arrow-left-long"></i> Deslize para explorar <i class="fa-solid fa-arrow-right-long"></i></p>
+          </div>
+        </article>
+
+        <article class="zooly-product zooly-desktop-product fade-up">
+          <div class="product-copy">
+            <span class="product-kicker"><i class="fa-solid fa-chalkboard-user"></i> Para os professores</span>
+            <h3>Mais clareza para <span>acompanhar.</span></h3>
+            <p>Na versão desktop, professores organizam turmas e atividades e acompanham o desenvolvimento dos alunos em um ambiente pensado para facilitar a rotina pedagógica.</p>
+            <ul class="product-points">
+              <li><i class="fa-solid fa-check"></i> Gerenciamento de turmas e alunos</li>
+              <li><i class="fa-solid fa-check"></i> Criação e organização de atividades</li>
+              <li><i class="fa-solid fa-check"></i> Acompanhamento de desempenho</li>
+            </ul>
+            <span class="device-label"><i class="fa-solid fa-desktop"></i> Plataforma desktop</span>
+          </div>
+          <div class="showcase-carousel desktop-carousel" data-carousel="desktop" aria-label="Telas do painel do professor">
+            <div class="carousel-topline"><span><i class="fa-solid fa-images"></i> Painel do professor</span><div class="carousel-controls"><button class="carousel-toggle" type="button" aria-label="Pausar animação"><i class="fa-solid fa-pause"></i></button></div></div>
+            <div class="carousel-viewport"><div class="carousel-track">
+              <figure class="screen-card desktop-screen"><img src="./img/zooly-desktop/Login.png" alt="Login do painel do professor" loading="lazy"><figcaption>Login</figcaption></figure>
+              <figure class="screen-card desktop-screen"><img src="./img/zooly-desktop/Home.png" alt="Dashboard do professor" loading="lazy"><figcaption>Dashboard</figcaption></figure>
+              <figure class="screen-card desktop-screen"><img src="./img/zooly-desktop/Turmas.png" alt="Gerenciamento de turmas" loading="lazy"><figcaption>Turmas</figcaption></figure>
+              <figure class="screen-card desktop-screen"><img src="./img/zooly-desktop/CadastroTurma.png" alt="Cadastro de turma" loading="lazy"><figcaption>Cadastro de turma</figcaption></figure>
+              <figure class="screen-card desktop-screen"><img src="./img/zooly-desktop/Alunos.png" alt="Lista de alunos" loading="lazy"><figcaption>Alunos</figcaption></figure>
+              <figure class="screen-card desktop-screen"><img src="./img/zooly-desktop/CadastrarAlunos.png" alt="Cadastro de alunos" loading="lazy"><figcaption>Cadastro de alunos</figcaption></figure>
+              <figure class="screen-card desktop-screen"><img src="./img/zooly-desktop/Atividades.png" alt="Gerenciamento de atividades" loading="lazy"><figcaption>Atividades</figcaption></figure>
+              <figure class="screen-card desktop-screen"><img src="./img/zooly-desktop/atv.png" alt="Detalhes de atividade" loading="lazy"><figcaption>Detalhes da atividade</figcaption></figure>
+              <figure class="screen-card desktop-screen"><img src="./img/zooly-desktop/Desempenho.png" alt="Desempenho dos alunos" loading="lazy"><figcaption>Desempenho</figcaption></figure>
+              <figure class="screen-card desktop-screen"><img src="./img/zooly-desktop/Configuracao.png" alt="Configurações do painel" loading="lazy"><figcaption>Configurações</figcaption></figure>
+            </div></div>
+            <p class="carousel-hint"><i class="fa-solid fa-arrow-left-long"></i> Deslize para explorar <i class="fa-solid fa-arrow-right-long"></i></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="team">
+      <div class="container">
+        <div class="fade-up">
+          <span class="section-tag-light">Nossa Equipe</span>
+          <h2 class="section-title">
+            Conheça os <span class="gradient-text">talentos</span> por trás da
+            KofiTech
+          </h2>
+          <p class="section-description">
+            Profissionais apaixonados por tecnologia e comprometidos em entregar
+            as melhores soluções.
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <!-- Hudson -->
+          <div class="team-card fade-up">
+            <div class="team-image">
+              <img src="./img/Hudson.jpeg" alt="Hudson Gregório" />
+              <div class="team-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h4>Hudson Gregório</h4>
+              <p>Desenvolvedor</p>
+            </div>
+          </div>
+
+          <!-- Thais -->
+          <div class="team-card fade-up">
+            <div class="team-image">
+              <img src="./img/Thais.jpeg" alt="Thais Nascimento" />
+              <div class="team-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h4>Thais Nascimento</h4>
+              <p>Desenvolvedora</p>
+            </div>
+          </div>
+
+          <!-- Heloisa -->
+          <div class="team-card fade-up">
+            <div class="team-image">
+              <img src="./img/Elo.jpeg" alt="Heloisa Gomes" />
+              <div class="team-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h4>Heloisa Gomes</h4>
+              <p>Desenvolvedora</p>
+            </div>
+          </div>
+
+          <!-- Elias -->
+          <div class="team-card fade-up">
+            <div class="team-image">
+              <img src="./img/Elias.jpeg" alt="Elias Pinheiro" />
+              <div class="team-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h4>Elias Pinheiro</h4>
+              <p>Desenvolvedor</p>
+            </div>
+          </div>
+
+          <!-- Kauã -->
+          <div class="team-card fade-up">
+            <div class="team-image">
+              <img src="./img/Kaua.jpeg" alt="Kauã Rosa" />
+              <div class="team-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h4>Kauã Rosa</h4>
+              <p>Desenvolvedor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-header fade-up">
+          <h2 class="section-title">
+            Vamos <span class="gradient-text">conversar</span>
+          </h2>
+          <p class="section-description">
+            Entre em contato e descubra como podemos ajudar seu projeto a
+            crescer com tecnologia.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-card fade-up">
+            <h3>Informações de Contato</h3>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <img src="./img/gmail.png" alt="Email" />
+              </div>
+              <div>
+                <span class="contact-info-label">Email</span>
+                <p class="contact-info-value">kofitech0@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <img src="./img/telephone-call.png" alt="Telefone" />
+              </div>
+              <div>
+                <span class="contact-info-label">Telefone</span>
+                <p class="contact-info-value">+55 (13) 99788-8796</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <img src="./img/location.png" alt="Endereço" />
+              </div>
+              <div>
+                <span class="contact-info-label">Endereço</span>
+                <p class="contact-info-value">São Paulo, Brasil</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <img src="./img/circular-alarm-clock-tool.png" alt="Horário" />
+              </div>
+              <div>
+                <span class="contact-info-label">Horário</span>
+                <p class="contact-info-value">Seg – Sex: 9h às 18h</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-card fade-up">
+            <h3>Envie uma mensagem</h3>
+
+            <form id="contactForm">
+              <div class="form-group">
+                <label class="form-label" for="name">Nome</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Seu nome completo"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="email">Email</label>
+                <input
+                  class="form-input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="seu@email.com"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="phone">Telefone</label>
+                <input
+                  class="form-input"
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="(11) 99999-9999"
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="message">Mensagem</label>
+                <textarea
+                  class="form-input"
+                  id="message"
+                  name="message"
+                  placeholder="Descreva como podemos ajudar..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit" id="submitBtn">
+                <i class="fas fa-paper-plane"></i> Enviar Mensagem
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-brand">
+            <img src="./img/logoBranca.png" alt="logo clara" />
+            <p class="footer-description">
+              Transformando ideias em soluções digitais inovadoras. Tecnologia
+              inteligente para impulsionar o futuro.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <h4>Links Rápidos</h4>
+            <ul class="footer-menu">
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#solutions">Soluções</a></li>
+              <li><a href="#team">Equipe</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-social">
+            <h4>Redes Sociais</h4>
+            <div class="footer-social-links">
+              <a href="#" class="social-link" aria-label="GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="X"
+                ><i class="fab fa-x-twitter"></i
+              ></a>
+            </div>
+
+            <div class="footer-contact-info">
+              <p><i class="fas fa-phone"></i> +55 (13) 99788-8796</p>
+              <p><i class="fas fa-envelope"></i> kofitech0@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 KofiTech. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
